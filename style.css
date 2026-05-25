@@ -62,3 +62,89 @@ color: #FF6200;
     top: 110px;
     left: 490px;
 }
+.sizediv{
+    display: flex;
+    gap: 6px;
+}
+.textsction{
+    position: absolute;
+    top: 85px;
+    right: 30px;
+    
+}
+.div1{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #EDEDED;
+}
+.div2{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #f57a2d;
+}
+.mainsecion2{
+    position: absolute;
+}
+.aglinmnet{
+    text-align: center;
+    font-weight: bold;
+}
+.imgcontainer{
+    display: grid;
+    gap: 5px;
+     border-radius: 12px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.jaketimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    object-fit: contain;
+    border: 3px solid #E5E5E5;
+    padding: 4px;
+}
+#border{
+    border: 1px solid #FF6200;
+}
+.BTNCONTAINER{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+.add-wish-list{
+     padding: 8px 15px;
+     border-radius: 10px;
+     border: 1px solid #EDEDED;
+}
+.bgbtn{
+    background-color: #f57a2d;
+    transition: all 0.3s ease;
+}
+.bgbtn:hover{
+    background-color: #973d04;
+    color: white;
+}
+.imges{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 700px;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
