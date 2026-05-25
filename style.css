@@ -6,3 +6,34 @@
 body{
     background-color: #FAF7F0;
 }
+.bars {
+    display: flex;
+    gap: 3.5px;
+    margin-left: 5px;
+    align-items: center;
+}
+.para{
+    margin-left: 22px;
+}
+.orange-color{
+color: #FF6200;
+}
+.mainwraper{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.nav-ul{
+    display: flex;
+    gap: 8px;
+    margin-left: 4.5px;
+    list-style: none;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border: 1px solid #d3d1d1;
+    border-radius: 8px;
+}
