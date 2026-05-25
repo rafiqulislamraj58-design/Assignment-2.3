@@ -18,6 +18,10 @@ body{
 .orange-color{
 color: #FF6200;
 }
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
 .mainwraper{
     max-width: 1400px;
     margin: 0 auto;
@@ -36,4 +40,25 @@ color: #FF6200;
     padding: 12px 20px;
     border: 1px solid #d3d1d1;
     border-radius: 8px;
+}
+.mainsection{
+    position: absolute;
+    top: 120px;
+
+}
+.doupdown-section{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.text-para{
+    margin-top: 20px;
+}
+.img-section{
+    height: 460px;
+    width: 460px;
+    position: absolute;
+    top: 110px;
+    left: 490px;
 }
